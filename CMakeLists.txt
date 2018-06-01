@@ -14,5 +14,6 @@ find_package(OpenCV)
 
 add_subdirectory(ROI)
 add_subdirectory(MaskCut)
+add_subdirectory(Structural_Analysis_and_Shape_Descriptors)
 
 #file(COPY ${CMAKE_SOURCE_DIR}/data/fruits.jpg DESTINATION ${CMAKE_BINARY_DIR}/bin/)
