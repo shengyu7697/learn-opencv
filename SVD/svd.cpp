@@ -35,13 +35,13 @@ int main()
     printMat(u);
     printf("vt\n");
     printMat(vt);
-//    printf("v\n");
-    //    printMat(v);
+    //printf("v\n");
+    //printMat(v);
 }
 
 void printMat(Mat m)
 {
-	//cout << m << endl;
+    //cout << m << endl;
     for(int i = 0; i<m.rows; i++) {
         for(int j = 0; j<m.cols; j++) {
             printf("%.1f ", m.at<double>(i, j));
